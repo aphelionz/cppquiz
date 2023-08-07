@@ -10,6 +10,18 @@ set(SOURCES
   ./test/QuestionTestCase.cpp
 )
 
+add_executable(
+  cppquiz
+  ./src/Question.cpp
+  ./src/chatgpt_api.cpp
+  ./src/main.cpp
+  ./src/lib/tinyxml.cpp
+)
+target_link_libraries(
+  cppquiz
+  curl
+)
+
 include(FetchContent)
 FetchContent_Declare(
   googletest

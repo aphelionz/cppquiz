@@ -26,9 +26,9 @@ $ cmake --build build
 
 ## Usage
 
-After following the steps above, simply:
+After following the steps above, obtain an [OpenAI API Key](https://platform.openai.com/account/api-keys), and then run:
 `bash
-$ ./build/cppquiz
+$ OPENAI_API_KEY=yourkeyhere ./build/cppquiz
 `
 
 Then, see the GIF above.

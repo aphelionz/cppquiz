@@ -18,18 +18,18 @@ Thus, the project was born and it goes something like this:
 
 This app uses CMake, mainly because of its GoogleTest integration.
 
-`bash
+```bash
 $ git clone https://github.com/aphelionz/cppquiz && cd cppquiz
 $ cmake -S . -B build
 $ cmake --build build
-`
+```
 
 ## Usage
 
 After following the steps above, simply:
-`bash
+```bash
 $ ./build/cppquiz
-`
+```
 
 Then, see the GIF above.
 

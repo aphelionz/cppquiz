@@ -20,8 +20,8 @@ size_t BuildReadBuffer(char *contents, size_t size, size_t nmemb, void *userp)
 
 std::string makeCurlRequest(const std::string& quizTopic)
 {
+    const std::string OPENAI_API_KEY = getenv("OPENAI_API_KEY");
     std::cout << "Calling OpenAI, please wait... ";
-    const std::string OPENAI_API_KEY = getenv("OPEN_API_KEY");
 
     const long CURLOPT_LONG_TRUE = 1L;
     // const long CURLOPT_LONG_FALSE = 0L;

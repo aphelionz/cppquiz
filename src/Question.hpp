@@ -7,6 +7,8 @@
 
 #pragma once
 
+#include <vector>
+
 #ifndef Question_h
 #define Question_h
 

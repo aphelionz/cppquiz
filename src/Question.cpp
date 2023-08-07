@@ -6,6 +6,8 @@
 //
 
 #include <string>
+#include <unordered_map>
+
 #include "Question.hpp"
 
 std::string Question::format() const

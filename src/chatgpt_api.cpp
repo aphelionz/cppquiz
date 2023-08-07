@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <algorithm>
 #include <curl/curl.h>
 
 #include "chatgpt_api.hpp"
